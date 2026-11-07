@@ -12,9 +12,9 @@ export const REQUIRED_CHIP = 'ESP32-P4';
  * @type {Object<string, string>}
  */
 export const FIRMWARE_HASH_URLS = {
-    'v1.3': 'https://kvstore.rd5isto.org/api/kv/p4-hid-mapper-stable-hash-rev1',
-    'v3.1': 'https://kvstore.rd5isto.org/api/kv/p4-hid-mapper-stable-hash-rev3',
-    'v3.2': 'https://kvstore.rd5isto.org/api/kv/p4-hid-mapper-stable-hash-rev3',
+    'v1.3': 'https://kv.rd5isto.top/v1/kv/p4-hid-mapper-stable-hash-rev1',
+    'v3.1': 'https://kv.rd5isto.top/v1/kv/p4-hid-mapper-stable-hash-rev3',
+    'v3.2': 'https://kv.rd5isto.top/v1/kv/p4-hid-mapper-stable-hash-rev3',
 };
 
 /** @type {string} 固件 CDN 前缀，拼接版本 hash 与后缀得到完整下载地址 */
